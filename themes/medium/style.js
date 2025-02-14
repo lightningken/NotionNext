@@ -13,8 +13,9 @@ const Style = () => {
     }
     
     // 隐藏特定的 div
-    .text-sm.py-1 {
-        display: none;
+    .text-sm.py-1::before {
+        content: ''; /* 通过伪元素隐藏文本 */
+        display: none; /* 隐藏文本内容 */
     }
     
     // 隐藏日期和瀏覽
