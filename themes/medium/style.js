@@ -12,17 +12,17 @@ const Style = () => {
         background-color: black;
     }
     
-    // 隐藏特定的 div
-    .text-sm.py-1 {
+    // 隐藏卡片日期
+    .hidden-date {
         display: none;
     }
 
-    // 隐藏带有 mr-2 fas fa-folder 的图标
+    // 隐藏卡片带有 mr-2 fas fa-folder 的图标
     .mr-2.fas.fa-folder {
         display: none;
     }
     
-    // 隐藏日期和瀏覽
+    // 隐藏文章日期和浏览数
     .flex.flex-wrap.text-gray-500.py-1 {
         display: none;
     }
