@@ -6,12 +6,15 @@
  */
 const Style = () => {
   return <style jsx global>{`
-    
     // 底色
-    .dark body{
+    .dark body {
         background-color: black;
     }
 
+    // 隐藏日期
+    .flex.flex-wrap.text-gray-500.py-1 .whitespace-nowrap {
+        display: none;
+    }
   `}</style>
 }
 
